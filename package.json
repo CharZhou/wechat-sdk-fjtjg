@@ -1,11 +1,10 @@
 {
   "name": "wechat-sdk-fjtjg",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A Node.js package for WeChat MP Platform API. Impl In FZTJG LTD",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "babel src --out-dir lib",
-    "publish": "npm run prepublish && npm publish"
+    "prepublish": "babel src --out-dir lib"
   },
   "homepage": "https://github.com/CharZhou/wechat-sdk-fjtjg",
   "keywords": [
