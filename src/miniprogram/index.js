@@ -20,26 +20,21 @@ class MiniProgram extends AMP {
    */
   constructor(appId, accessTokenController, config) {
     super(AppType.MiniProgram, appId, accessTokenController, config);
-  }
 
-  /**
-   * @Description 获取登陆模块控制器
-   * @author CharZhou
-   * @date 2021/7/22 12:18
-   * @return {Login}
-   */
-  getLoginController() {
-    return new Login(this.accessTokenController, this.config);
-  }
-
-  /**
-   * @Description 获取统一消息模块控制器
-   * @author CharZhou
-   * @date 2021/7/22 12:19
-   * @return {UniformMessage}
-   */
-  getUniformMessageController() {
-    return new UniformMessage(this.accessTokenController, this.config);
+    /**
+     * @Description 登陆相关业务控制器
+     * @author CharZhou
+     * @date 2021/7/22 13:49
+     */
+    this.loginController = new Login(this.accessTokenController, this.config);
+    /**
+     * @Description 统一服务消息相关业务控制器
+     * @author CharZhou
+     * @date 2021/7/22 13:50
+     */
+    this.uniformMessageController =
+      new UniformMessage(this.accessTokenController,
+          this.config);
   }
 }
 
