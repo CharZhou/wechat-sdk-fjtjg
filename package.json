@@ -6,6 +6,7 @@
   "scripts": {
     "prepublish": "babel src --out-dir lib"
   },
+  "homepage": "https://github.com/CharZhou/wechat-sdk-fjtjg",
   "keywords": [
     "WeChat",
     "SDK",
@@ -19,6 +20,10 @@
   },
   "author": "CharZhou",
   "license": "GPL2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CharZhou/wechat-sdk-fjtjg.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
