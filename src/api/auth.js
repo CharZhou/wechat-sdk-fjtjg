@@ -41,14 +41,16 @@ async function getAccessToken(appId, appSecret) {
  * @Description 登录凭证校验
  * @author CharZhou
  * @date 2021/7/22 11:28
- * @param {String} accessToken
+ * @param {String} appId
+ * @param {String} appSecret
  * @param {String} code
  * @return {code2SessionResult}
  */
-async function code2Session(accessToken, code) {
+async function code2Session(appId, appSecret, code) {
   const result = await axios.get(apis.code2SessionUrl, {
     params: {
-      access_token: accessToken,
+      appid: appId,
+      secret: appSecret,
       js_code: code,
       grant_type: 'authorization_code',
     },

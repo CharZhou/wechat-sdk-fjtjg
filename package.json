@@ -1,6 +1,6 @@
 {
   "name": "wechat-sdk-fjtjg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js package for WeChat MP Platform API. Impl In FZTJG LTD",
   "main": "lib/index.js",
   "scripts": {
