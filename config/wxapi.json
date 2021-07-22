@@ -1,0 +1,20 @@
+{
+  "apis": {
+    "code2SessionUrl": "https://api.weixin.qq.com/sns/jscode2session",
+    "accessTokenQueryUrl": "https://api.weixin.qq.com/cgi-bin/token",
+    "getPaidUnionIdUrl":"https://api.weixin.qq.com/wxa/getpaidunionid",
+    "unionOrderUrl": "https://api.mch.weixin.qq.com/pay/unifiedorder",
+    "uniformMsgUrl": "https://api.weixin.qq.com/cgi-bin/message/wxopen/template/uniform_send",
+    "subscribeMessageUrl": "https://api.weixin.qq.com/cgi-bin/message/subscribe/send",
+    "imgSecurityCheckUrl": "https://api.weixin.qq.com/wxa/img_sec_check",
+    "msgSecurityCheckUrl": "https://api.weixin.qq.com/wxa/msg_sec_check",
+    "refundUrl": "https://api.mch.weixin.qq.com/secapi/pay/refund",
+    "orderQueryUrl": "https://api.mch.weixin.qq.com/pay/orderquery",
+    "sendServiceMsgUrl": "https://api.weixin.qq.com/cgi-bin/message/custom/send",
+    "uploadWxMediaUrl": "https://api.weixin.qq.com/cgi-bin/media/upload",
+    "createQRCode": "https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode",
+    "createOAQRCode": "https://api.weixin.qq.com/cgi-bin/qrcode/create",
+    "showQRCode": "https://mp.weixin.qq.com/cgi-bin/showqrcode",
+    "payToUserUrl": "https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers"
+  }
+}

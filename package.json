@@ -1,0 +1,22 @@
+{
+  "name": "wechat-sdk-fjtjg",
+  "version": "1.0.0",
+  "description": "A Node.js package for WeChat MP Platform API. Impl In FZTJG LTD",
+  "main": "src/index.js",
+  "keywords": [
+    "WeChat",
+    "SDK",
+    "OfficialAccount",
+    "MiniProgram"
+  ],
+  "author": "CharZhou",
+  "license": "GPL2.0",
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-cache": "^5.1.2"
+  }
+}
